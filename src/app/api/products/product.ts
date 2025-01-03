@@ -2,7 +2,7 @@
 export const products = [
     {
         id: 0,
-        img: "/product__1.jpg",
+        img: "/product-1.jpg",
         name: "Mac Mate Lipsticks",
         price: 41.0,
         category: ["lipsticks", "makeup", "all"],
