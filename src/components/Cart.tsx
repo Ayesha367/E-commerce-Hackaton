@@ -107,7 +107,7 @@ const Cart = ({ setShowCart }: CartProps) => {
                 <input
                   required
                   type="text"
-                  className="w-full px-4 py-2 mt-2 border rounded-lg"
+                  className="w-full px-4 py-2 mt-2 text-black border rounded-lg"
                   placeholder="Enter your name"
                   value={formData.name}
                   onChange={(e) =>
@@ -121,7 +121,7 @@ const Cart = ({ setShowCart }: CartProps) => {
                 <input
                   required
                   type="email"
-                  className="w-full px-4 py-2 mt-2 border rounded-lg"
+                  className="w-full px-4 py-2 mt-2 border text-black rounded-lg"
                   placeholder="Enter your email"
                   value={formData.email}
                   onChange={(e) =>
@@ -135,7 +135,7 @@ const Cart = ({ setShowCart }: CartProps) => {
                 <input
                   required
                   type="text"
-                  className="w-full px-4 py-2 mt-2 border rounded-lg"
+                  className="w-full px-4 py-2 mt-2 border text-black rounded-lg"
                   placeholder="Enter your address"
                   value={formData.address}
                   onChange={(e) =>
